@@ -2,13 +2,13 @@ export type Status = 'normal' | 'warning' | 'critical';
 
 export interface RawReading {
   reading_time: string;
-  temperature: string;
-  pressure: string;
-  fuel_consumption: string;
-  o2_percent: string;
-  cao_pct: string;
-  sio2_pct: string;
-  al2o3_pct: string;
+  temperature: number;
+  pressure: number;
+  fuel_consumption: number;
+  o2_percent: number;
+  cao_pct: number;
+  sio2_pct: number;
+  al2o3_pct: number;
 }
 
 type Field = 'temperature' | 'fuel_consumption' | 'o2_percent' | 'cao_pct' | 'sio2_pct' | 'al2o3_pct';

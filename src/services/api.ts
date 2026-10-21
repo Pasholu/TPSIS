@@ -42,8 +42,8 @@ export interface LabSampleRow {
   sample_id: number;
   sample_code: string;
   sample_time: string;
-  cao_pct: string | null;
-  mgo_pct: string | null;
+  cao_pct: number | null;
+  mgo_pct: number | null;
   notes: string | null;
   passed: boolean | null;
   furnace_id: number | null;
